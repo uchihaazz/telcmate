@@ -13,14 +13,13 @@ import { getExerciseById, deleteExercise } from "@/lib/firebase-data"
 import LoadingSpinner from "@/components/loading-spinner"
 import { BaseExercise } from "@/lib/exercise-types"
 
-type Props = {
+interface DeleteExercisePageProps {
   params: {
     id: string
   }
-  searchParams: { [key: string]: string | string[] | undefined }
 }
 
-export default function DeleteExercise({ params }: Props) {
+export default function DeleteExercisePage({ params }: DeleteExercisePageProps) {
   const router = useRouter()
   const { toast } = useToast()
   const [isAdmin, setIsAdmin] = useState(false)
