@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "telc-b2-prep4"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "telc-b2-prep4-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

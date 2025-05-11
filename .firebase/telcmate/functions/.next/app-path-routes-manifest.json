@@ -1,0 +1,23 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/page": "/",
+  "/admin/exercises/delete/[id]/page": "/admin/exercises/delete/[id]",
+  "/admin/exercises/create/page": "/admin/exercises/create",
+  "/admin/users/create/page": "/admin/users/create",
+  "/admin/users/delete/[id]/page": "/admin/users/delete/[id]",
+  "/admin/users/edit/[id]/page": "/admin/users/edit/[id]",
+  "/admin/page": "/admin",
+  "/admin/exercises/edit/[id]/page": "/admin/exercises/edit/[id]",
+  "/contact/page": "/contact",
+  "/dashboard/grammar/page": "/dashboard/grammar",
+  "/dashboard/grammar/[id]/page": "/dashboard/grammar/[id]",
+  "/dashboard/listening/[id]/page": "/dashboard/listening/[id]",
+  "/dashboard/listening/page": "/dashboard/listening",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/reading/[id]/page": "/dashboard/reading/[id]",
+  "/dashboard/writing/[id]/page": "/dashboard/writing/[id]",
+  "/dashboard/reading/page": "/dashboard/reading",
+  "/dashboard/writing/page": "/dashboard/writing",
+  "/dashboard/test/exercise/page": "/dashboard/test/exercise",
+  "/dashboard/test/page": "/dashboard/test"
+}

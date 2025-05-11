@@ -1,0 +1,23 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/admin/exercises/delete/[id]/page": "app/admin/exercises/delete/[id]/page.js",
+  "/admin/exercises/create/page": "app/admin/exercises/create/page.js",
+  "/admin/users/create/page": "app/admin/users/create/page.js",
+  "/admin/users/delete/[id]/page": "app/admin/users/delete/[id]/page.js",
+  "/admin/users/edit/[id]/page": "app/admin/users/edit/[id]/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/exercises/edit/[id]/page": "app/admin/exercises/edit/[id]/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/dashboard/grammar/page": "app/dashboard/grammar/page.js",
+  "/dashboard/grammar/[id]/page": "app/dashboard/grammar/[id]/page.js",
+  "/dashboard/listening/[id]/page": "app/dashboard/listening/[id]/page.js",
+  "/dashboard/listening/page": "app/dashboard/listening/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/reading/[id]/page": "app/dashboard/reading/[id]/page.js",
+  "/dashboard/writing/[id]/page": "app/dashboard/writing/[id]/page.js",
+  "/dashboard/reading/page": "app/dashboard/reading/page.js",
+  "/dashboard/writing/page": "app/dashboard/writing/page.js",
+  "/dashboard/test/exercise/page": "app/dashboard/test/exercise/page.js",
+  "/dashboard/test/page": "app/dashboard/test/page.js"
+}
