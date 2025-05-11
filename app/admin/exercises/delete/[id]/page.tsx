@@ -13,13 +13,14 @@ import { getExerciseById, deleteExercise } from "@/lib/firebase-data"
 import LoadingSpinner from "@/components/loading-spinner"
 import { BaseExercise } from "@/lib/exercise-types"
 
-interface DeleteExercisePageProps {
-  params: {
+interface PageProps {
+  params: Promise<{
     id: string
-  }
+  }>
 }
 
-export default function DeleteExercisePage({ params }: DeleteExercisePageProps) {
+export default async function DeleteExercisePage({ params }: PageProps) {
+  const { id } = await params
   const router = useRouter()
   const { toast } = useToast()
   const [isAdmin, setIsAdmin] = useState(false)
@@ -45,7 +46,7 @@ export default function DeleteExercisePage({ params }: DeleteExercisePageProps) 
 
   const handleDelete = async () => {
     try {
-      await deleteExercise(params.id)
+      await deleteExercise(id)
       toast({
         title: "Success",
         description: "Exercise deleted successfully",
