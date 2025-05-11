@@ -19,13 +19,13 @@ import LoadingSpinner from "@/components/loading-spinner"
 import { BaseExercise } from "@/lib/exercise-types"
 
 interface PageProps {
-  params: {
+  params: Promise<{
     id: string
-  }
+  }>
 }
 
-export default function EditExercisePage({ params }: PageProps) {
-  const { id } = params
+export default async function EditExercisePage({ params }: PageProps) {
+  const { id } = await params
   const router = useRouter()
   const { toast } = useToast()
   const [isAdmin, setIsAdmin] = useState(false)
